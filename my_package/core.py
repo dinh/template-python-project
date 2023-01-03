@@ -7,8 +7,7 @@ DEFAULT_WEBPAGE = "https://www.example.com"
 
 def make_request(webpage: str = DEFAULT_WEBPAGE) -> requests.Response:
     """Make a simple request to a webpage"""
-    response = requests.get(webpage, timeout=5)
-    return response
+    return requests.get(webpage, timeout=5)
 
 
 def main():
